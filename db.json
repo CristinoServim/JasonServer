@@ -1,0 +1,93 @@
+{
+    "pessoas": [
+        {
+            "id": 1,
+            "nome": "Maria",
+            "sobrenome": "Diogo Lira Servim"
+        }
+    ],
+    "promocao": [
+        {
+            "total": "2",
+            "results": [
+                {
+                    "id": "176",
+                    "titulo": "Promo Fanta 3x2",
+                    "descripcion": "Llevando 3 Fantas pagas 2",
+                    "tipo": "LLEVA_PAGA",
+                    "detalles": {
+                        "condiciones": {
+                            "items": [
+                                {
+                                    "cantidad": 3,
+                                    "articulos": [
+                                        {
+                                            "codigoBarras": "7790580651008",
+                                            "nombre": "REFRESCO FANTA PET.600 ML"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "beneficios": null,
+                        "precio": null,
+                        "descuento": null,
+                        "paga": 2
+                    },
+                    "autor": {
+                        "descripcion": "UNILEVER"
+                    },
+                    "vigenciaDesde": "2015-10-31T00:00:00.6875000-0300",
+                    "vigenciaHasta": "2015-11-22T23:59:59.6875000-0300"
+                },
+                {
+                    "id": "7718",
+                    "titulo": "HOMOLOGACION ADICIONAL REGALO v7",
+                    "descripcion": "HOMOLOGACION ADICIONAL REGALO v7",
+                    "tipo": "ADICIONAL_REGALO",
+                    "autor": {
+                        "descripcion": "Scanntech"
+                    },
+                    "detalles": {
+                        "condiciones": {
+                            "items": [
+                                {
+                                    "cantidad": 3,
+                                    "articulos": [
+                                        {
+                                            "nombre": "MACARRAO MASSA FRITZ & FRIDA ESPAGUETE SEMOLA COM OVOS 500G",
+                                            "codigoBarras": "7890300113714"
+                                        },
+                                        {
+                                            "nombre": "MACARRAO MASSA FRITZ & FRIDA CARAMUJO SEMOLA COM OVOS 500G",
+                                            "codigoBarras": "7890300164952"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "beneficios": {
+                            "items": [
+                                {
+                                    "cantidad": 1,
+                                    "articulos": [
+                                        {
+                                            "nombre": "CATCHUP FRITZ & FRIDA 200 GRS.",
+                                            "codigoBarras": "7890300078952"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "precio": null,
+                        "descuento": null,
+                        "paga": null
+                    },
+                    "vigenciaDesde": "2016-10-23T00:00:00.000-0300",
+                    "vigenciaHasta": "2017-02-28T23:59:59.000-0300",
+                    "limitePromocionesPorTicket": 4
+                }
+            ]
+        }
+    ]
+}
