@@ -6,12 +6,72 @@
       "sobrenome": "Diogo Lira Servim"
     }
   ],
-  "produtos": [
-    {
-      "id": 1,
-      "nome": "macarrao",
-      "preco": 10
-    }
+  "movimentos": [
+    [
+      {
+        "venda": {
+          "total": "135.58",
+          "codigoMoneda": "986",
+          "cotizacion": 1,
+          "fecha": "2023-09-23T12:54:29.000-0300",
+          "documentoCliente": null,
+          "descuentoTotal": 0,
+          "recargoTotal": 0,
+          "cancelacion": false,
+          "numero": "1016",
+          "codigoCanalVenta": 1,
+          "descripcionCanalVenta": "VENDA NA LOJA",
+          "pagos": [
+            {
+              "codigoTarjeta": null,
+              "importe": "135.58",
+              "codigoTipoPago": 9,
+              "codigoMoneda": "986",
+              "cotizacion": 1,
+              "documentoCliente": null,
+              "bin": null,
+              "ultimosDigitosTarjeta": null,
+              "numeroAutorizacao": null
+            }
+          ],
+          "detalles": [
+            {
+              "importe": "100.00",
+              "recargo": 0,
+              "clasificacionDescuento": null,
+              "descuento": 0,
+              "codigoArticulo": "4",
+              "cantidad": 1,
+              "importeUnitario": 100,
+              "codigoBarras": "9999999999999",
+              "descripcionArticulo": "CERVEJA"
+            },
+            {
+              "importe": "32.08",
+              "recargo": 0,
+              "clasificacionDescuento": null,
+              "descuento": 0,
+              "codigoArticulo": "1",
+              "cantidad": 1,
+              "importeUnitario": 32.08,
+              "codigoBarras": "123456789123",
+              "descripcionArticulo": "BOLO DA SOGRA"
+            },
+            {
+              "importe": "3.50",
+              "recargo": 0,
+              "clasificacionDescuento": null,
+              "descuento": 0,
+              "codigoArticulo": "2",
+              "cantidad": 1,
+              "importeUnitario": 3.5,
+              "codigoBarras": "6291041500213",
+              "descripcionArticulo": "BATATA FRITA FISCAL"
+            }
+          ]
+        }
+      }
+    ]
   ],
   "promocao": [
     {
